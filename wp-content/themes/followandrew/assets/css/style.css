@@ -1,3 +1,52 @@
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('fonts/CooperHewitt-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('fonts/CooperHewitt-Heavy.otf') format('opentype');
+    font-weight: 800; /* Heavy weight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('fonts/CooperHewitt-Medium.otf') format('opentype');
+    font-weight: 500; /* Medium weight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('fonts/CooperHewitt-BoldItalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('fonts/CooperHewitt-HeavyItalic.otf') format('opentype');
+    font-weight: 800; /* Heavy weight */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('fonts/CooperHewitt-MediumItalic.otf') format('opentype');
+    font-weight: 500; /* Medium weight */
+    font-style: italic;
+}
+
+h1{
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 130px;
+}
+
 :root {
     --off-white: #F6F2EF;
     --dark-green: #0C2927;
@@ -18,6 +67,7 @@ a:hover{
 
 body{
     background-color: var(--off-white);
+    font-family: inter, sans-serif;
 }
 
 #header-name{
